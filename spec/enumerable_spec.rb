@@ -28,6 +28,10 @@ describe 'the Enumerable test :)' do
     expect(n).to eq [[1,399], [987]]
   end
 
+  # specify 'print_elements_in_ascending_order_with_a_place_marker' do
+  #   n = print_elements_in_ascending_order_with_a_place_marker [3]
+  #   expect(n).to eq 0. 3
+  # end
 end
 
 

@@ -26,11 +26,13 @@ end
 def split_number_in_sets_one_below_500_and_ones_above(array)
 	array.partition{|x| x < 500}
 end
-# puts array.partition{|x| x < 500}
 
 # puts "Exercise 5: Print them in ascending order with a place marker:"
-# a=array.sort
-# a.each_with_index{|number, index| puts "#{index}. #{number}"}
+ 
+a=array.sort
+def print_elements_in_ascending_order_with_a_place_marker
+ a.each_with_index{|number, index| puts "#{index}. #{number}"}
+end
 
 # puts "Exercise 6: Find the sum of all numbers between 600 and 700"
 # puts selected_array=array.select{|x| x >= 600 && x <= 700 }
